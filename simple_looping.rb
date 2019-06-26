@@ -16,7 +16,6 @@ def loop_iterator(number_of_times)
     puts phrase
     break if counter >= number_of_times
   end
-
 end
 
 def times_iterator(number_of_times)
@@ -25,7 +24,6 @@ def times_iterator(number_of_times)
   7.times do
     puts phrase
   end
-
 end
 
 def while_iterator(number_of_times)
@@ -37,7 +35,6 @@ def while_iterator(number_of_times)
     counter += 1
     puts phrase
   end
-
 end
 
 def until_iterator(number_of_times)
